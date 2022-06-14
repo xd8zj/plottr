@@ -280,6 +280,7 @@ class Collapsible(QtWidgets.QWidget):
         if expanding:
             setVExpanding(self.widget)
 
+        self.plainTitle = title
         self.expandedTitle = "[-] " + title
         self.collapsedTitle = "[+] " + title
 
